@@ -3,6 +3,7 @@ import Nav from "./Nav";
 import Button from "./Button";
 import ButtonGetStarted from "./ButtonGetStarted";
 import logo from "../images/Vectorlogo.png"
+import "../header.scss"
 
 export default function Header() {
     return (
@@ -12,8 +13,8 @@ export default function Header() {
             </div>
             <Nav/>
             <div className="header__buttons-bar">
-                <Button text="Login"/>
-                <ButtonGetStarted />
+                <button className="header__buttons-bar__button_inactive">Login</button>
+                <button className="header__buttons-bar__button_active">Get Started</button>
             </div>
         </header>
     )

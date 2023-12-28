@@ -1,5 +1,7 @@
 import React from "react";
 import ButtonGetStarted from "./ButtonGetStarted";
+import '../home.scss';
+import Header from "./Header";
 
 export default function Home() {
     return (

@@ -1,0 +1,40 @@
+//colors
+
+$white: #FFFFFF;
+
+$heading-blue: #0A0A66;
+
+$grey: #4D4D80;
+
+$light-grey: #B8C0CC;
+
+$light-blue: #E2E8FE;
+
+$accent-blue: #5383ED;
+
+$background-blue: #466EC7;
+
+$lightest-blue: #ECF0FE;
+
+//gradients
+
+$light-blue-gradient: linear-gradient(176deg, #B2E6FF 3.41%, #E5FFFF 48.38%);
+
+//fonts
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('fonts/Manrope/static/Manrope-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+};
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$playfair-display: 'Playfair Display', serif;
+$manrope: 'Manrope', sans-serif;
